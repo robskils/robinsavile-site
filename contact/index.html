@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact — Robin Savile Watercolours</title>
+  <meta name="description" content="Enquiries about original paintings, prints, commissions, and studio visits. Contact Robin Savile."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/robinsavile.css"/>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="Robin Savile — home">
+        <span class="logo-name">Robin Savile</span>
+        <span class="logo-sub">Watercolours</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/exhibitions/">Exhibitions</a>
+        <a href="/prints/">Prints</a>
+        <a href="/about/">About</a>
+        <a href="/contact/" class="active">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="22" height="16" viewBox="0 0 22 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <line x1="0" y1="2" x2="22" y2="2"/>
+          <line x1="0" y1="8" x2="22" y2="8"/>
+          <line x1="0" y1="14" x2="22" y2="14"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="/">Home</a>
+    <a href="/gallery/">Gallery</a>
+    <a href="/exhibitions/">Exhibitions</a>
+    <a href="/prints/">Prints</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-header section-border">
+    <div class="container">
+      <p class="eyebrow fade-up">Get in touch</p>
+      <h1 class="fade-up fade-delay-1">Contact &amp; commissions</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="fade-up">
+          <form class="contact-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="name">Your name</label>
+              <input class="form-input" type="text" id="name" name="name" autocomplete="name" required/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email address</label>
+              <input class="form-input" type="email" id="email" name="email" autocomplete="email" required/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="subject">Subject</label>
+              <select class="form-select form-input" id="subject" name="subject">
+                <option value="">Please select…</option>
+                <option value="original">Enquiry about an original painting</option>
+                <option value="commission">Commission</option>
+                <option value="print">Print enquiry</option>
+                <option value="exhibition">Exhibition or gallery</option>
+                <option value="workshop">Workshop or studio day</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-textarea" id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button class="btn-submit" type="submit">Send message</button>
+          </form>
+        </div>
+
+        <div class="contact-info fade-up fade-delay-1">
+          <h2>Studio enquiries</h2>
+          <p>Whether you're interested in an original painting, a commission, a print, or just want to know more about the work — please do write. Robin reads all messages and replies personally.</p>
+          <p>For commissions, it helps to mention the subject, approximate size, and intended setting. Response time is usually within a few days.</p>
+
+          <div class="contact-detail">
+            <div><span class="eyebrow">Email</span></div>
+            <div><a href="mailto:studio@robinsavile.com">studio@robinsavile.com</a></div>
+            <div style="margin-top:1.25rem"><span class="eyebrow">Studio</span></div>
+            <div>North Yorkshire, United Kingdom</div>
+            <div style="margin-top:1.25rem"><span class="eyebrow">Social</span></div>
+            <div><a href="#">Instagram</a></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-name" style="font-family:var(--font-serif)">Robin Savile</div>
+        <p>Quiet watercolours of British landscape — painted slowly, from observation, in the studio and the field.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Visit</h3>
+        <ul>
+          <li><a href="/gallery/">Gallery</a></li>
+          <li><a href="/exhibitions/">Exhibitions</a></li>
+          <li><a href="/prints/">Prints</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact &amp; commissions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Studio</h3>
+        <p>North Yorkshire, United Kingdom</p>
+        <p style="margin-top:0.5rem"><a href="mailto:studio@robinsavile.com">studio@robinsavile.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>&copy; 2026 Robin Savile. All works and images copyright the artist.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/robinsavile.js" defer></script>
+</body>
+</html>
